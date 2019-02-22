@@ -1,4 +1,4 @@
-package com.cinthyasophia.tema10.ejercicio01;
+package com.cinthyasophia.tema10.Ejercicio01;
 
 import java.util.ArrayList;
 import java.util.Random;
