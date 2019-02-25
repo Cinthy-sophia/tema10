@@ -9,8 +9,8 @@ import java.util.HashMap;
 public class ArrayListEstadisticas implements IEstadisticas {
     private ArrayList<Double> lista;
 
-    public ArrayListEstadisticas(){
-        lista = new ArrayList<>();
+    public ArrayListEstadisticas(int i){
+        lista = new ArrayList<>(i);
 
     }
 
@@ -18,6 +18,7 @@ public class ArrayListEstadisticas implements IEstadisticas {
     public double minimo() {
         double min;
         min= Double.MAX_VALUE;
+
         for (Double num : lista) {
             if (num < min) {
                 min = num;
@@ -29,7 +30,7 @@ public class ArrayListEstadisticas implements IEstadisticas {
     @Override
     public double maximo() {
         double max;
-        max=Double.MIN_VALUE;
+        max=0;
         for (Double num : lista) {
             if (num > max) {
                 max = num;
@@ -52,7 +53,7 @@ public class ArrayListEstadisticas implements IEstadisticas {
         double sumatorio=0;
         double total;
         for (double n:lista) {
-            sumatorio=+n;
+            sumatorio+=n;
         }
         total = sumatorio/lista.size();
         return total;
@@ -79,7 +80,7 @@ public class ArrayListEstadisticas implements IEstadisticas {
             }
         }
 
-        for (double num : lista) {
+        for (double num : claves) {
 
             if (repetidos.get(num) > max) {
                 max = repetidos.get(num);
@@ -106,17 +107,17 @@ public class ArrayListEstadisticas implements IEstadisticas {
     }
 
 
-    public Object get(int i) {
+    public double get(int i) {
         return lista.get(i);
     }
 
 
-    public Object set(int i, double o) {
+    public double set(int i, double o) {
         return lista.set(i,o) ;
     }
 
 
-    public Object remove(int i) {
+    public double remove(int i) {
         return lista.remove(i);
     }
 

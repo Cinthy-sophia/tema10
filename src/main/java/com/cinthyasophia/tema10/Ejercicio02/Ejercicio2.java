@@ -1,17 +1,20 @@
 package com.cinthyasophia.tema10.Ejercicio02;
 
 
+import java.util.Random;
 
 public class Ejercicio2 {
-
+    public Random rnd = new Random();
 
     public Ejercicio2(){
         double aleatorio;
-        ArrayListEstadisticas estadisticas = new ArrayListEstadisticas();
+        ArrayListEstadisticas estadisticas = new ArrayListEstadisticas(10);
 
-        for (int i = 0; i < estadisticas.size() ; i++) {
-            aleatorio= Math.floor(1.5);
+        for (int i = 0; i < 10 ; i++) {
+            aleatorio=Math.floor(rnd.nextDouble()*100)/100;
             estadisticas.add(i,aleatorio);
+
+            //System.out.println(estadisticas.get(i));
         }
 
         System.out.println(estadisticas.maximo());
