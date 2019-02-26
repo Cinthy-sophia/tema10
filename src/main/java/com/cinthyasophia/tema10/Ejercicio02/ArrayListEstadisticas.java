@@ -42,21 +42,15 @@ public class ArrayListEstadisticas implements IEstadisticas {
     @Override
     public double sumatorio() {
         double sumatorio=0;
-        for (double n:lista) {
-            sumatorio=+n;
+        for (double n: lista) {
+            sumatorio+=n;
         }
         return sumatorio;
     }
 
     @Override
     public double media() {
-        double sumatorio=0;
-        double total;
-        for (double n:lista) {
-            sumatorio+=n;
-        }
-        total = sumatorio/lista.size();
-        return total;
+        return sumatorio()/lista.size();
     }
 
     @Override
@@ -69,8 +63,8 @@ public class ArrayListEstadisticas implements IEstadisticas {
         for (int i = 0; i <lista.size() ; i++) {
             if(!repetidos.containsKey(lista.get(i))) {
 
-                for (Double num : lista) {
-                    contadorRep = 0;
+                contadorRep = 0;
+                for (double num : lista) {
                     if (lista.get(i).equals(num)) {
                         contadorRep++;
                     }
@@ -79,15 +73,16 @@ public class ArrayListEstadisticas implements IEstadisticas {
                 }
             }
         }
-
+        double numRep=0;
         for (double num : claves) {
 
             if (repetidos.get(num) > max) {
                 max = repetidos.get(num);
+                numRep= num;
             }
 
         }
-        return max;
+        return numRep;
     }
 
 
