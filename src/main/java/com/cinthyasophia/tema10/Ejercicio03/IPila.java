@@ -1,4 +1,4 @@
-package com.cinthyasophia.tema10.Ejercicio3;
+package com.cinthyasophia.tema10.Ejercicio03;
 
 public interface IPila<T> {
 

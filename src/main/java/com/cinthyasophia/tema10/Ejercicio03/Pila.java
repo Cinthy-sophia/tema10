@@ -1,10 +1,13 @@
-package com.cinthyasophia.tema10.Ejercicio3;
+package com.cinthyasophia.tema10.Ejercicio03;
 
 import java.util.ArrayList;
 
 public class Pila implements IPila<String> {
-    private ArrayList<String> pila = new ArrayList<>();
+    private ArrayList<String> pila;
 
+    public Pila(int size){
+        pila= new ArrayList<>(size);
+    }
     @Override
     public String push(String e) {
         if(pila.add(e)){
@@ -33,6 +36,10 @@ public class Pila implements IPila<String> {
     @Override
     public boolean isEmpty() {
         return pila.isEmpty();
+    }
+
+    public String toString(){
+        return pila.toString();
     }
 }
 
