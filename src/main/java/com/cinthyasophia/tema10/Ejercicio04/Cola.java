@@ -37,8 +37,10 @@ public class Cola implements ICola<String> {
     public boolean isEmpty() {
         return cola.isEmpty();
     }
+
     public String toString(){
         return cola.toString();
     }
+
 }
 
