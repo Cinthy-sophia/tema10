@@ -2,7 +2,7 @@ package com.cinthyasophia.tema10.Ejercicio3;
 
 import java.util.ArrayList;
 
-public class Pila<> implements IPila<String> {
+public class Pila implements IPila<String> {
     private ArrayList<String> pila = new ArrayList<>();
 
     @Override
