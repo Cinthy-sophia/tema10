@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2a2918e-da3a-4c95-8d0b-7c6394648dde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio04/Cola.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio04/Ejercicio4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio04/ICola.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema10/Ejercicio02/ArrayListEstadisticas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema10/Ejercicio02/ArrayListEstadisticas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema10/Ejercicio02/Ejercicio2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema10/Ejercicio02/Ejercicio2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema10/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema10/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio3/Ejercicio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio03/Ejercicio3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio3/IPila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio03/IPila.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio3/Pila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio03/Pila.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="f2a2918e-da3a-4c95-8d0b-7c6394648dde" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -45,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio03/Pila.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="e#189#190#0" expanded="true" />
                 <element signature="e#229#230#0" expanded="true" />
@@ -56,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio03/Ejercicio3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -124,11 +109,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio02/Ejercicio2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio02/ArrayListEstadisticas.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio04/ICola.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio04/Cola.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio04/Ejercicio4.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio03/Pila.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio03/Ejercicio3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Main.java" />
       </list>
     </option>
   </component>
@@ -189,7 +174,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551264028653" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551264137063" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -241,21 +226,20 @@
       <option name="project" value="LOCAL" />
       <updated>1551171973259</updated>
     </task>
-    <task id="LOCAL-00002" summary="Ejercicio 2">
-      <created>1551099628746</created>
+    <task id="LOCAL-00002" summary="ejercicio 3 y 4 terminados">
+      <created>1551264091490</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1551099628746</updated>
+      <updated>1551264091490</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -264,14 +248,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32899022" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32899022" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32899022" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -287,7 +271,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ejercicio 1 terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 1 terminado" />
+    <MESSAGE value="ejercicio 3 y 4 terminados" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 3 y 4 terminados" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -375,7 +360,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio03/Pila.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="e#189#190#0" expanded="true" />
             <element signature="e#229#230#0" expanded="true" />
@@ -385,17 +370,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio03/Ejercicio3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
