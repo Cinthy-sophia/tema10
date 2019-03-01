@@ -30,14 +30,15 @@ public class InformacionPacientes {
 
     public int[] mayorMenor(ArrayList<Paciente> pacientes) {
         int[] mayorMenor= new int[2];
-        int min= 1;
+        int min= 4;
         int max= 0;
 
         for (Paciente p : pacientes) {
-            if (p.getEdad() > max) {
-                max = pacientes.indexOf(p);
-            } else if (p.getEdad() < min) {
+            if (p.getEdad() < pacientes.get(min).getEdad()) {
                 min = pacientes.indexOf(p);
+            }
+            if (p.getEdad() > pacientes.get(max).getEdad()) {
+                max = pacientes.indexOf(p);
             }
         }
         mayorMenor[0]=min;
@@ -69,16 +70,17 @@ public class InformacionPacientes {
 
     @Override
     public String toString() {
-        int[] mayMen;
-        mayMen= mayorMenor(pacientes);
-        int menor= pacientes.get(mayMen[0]).getEdad();
-        int mayor=pacientes.get(mayMen[1]).getEdad();
-        char sexoMay= pacientes.get(mayMen[1]).getSexo();
-        char sexoMen= pacientes.get(mayMen[0]).getSexo();
+        int[] mayorMenorArray;
+        mayorMenorArray= mayorMenor(pacientes);
+        int menor= pacientes.get(mayorMenorArray[0]).getEdad();
+        int mayor=pacientes.get(mayorMenorArray[1]).getEdad();
 
-        int[] homMuj= pacientesPorSexo(pacientes);
-        int hombres= homMuj[0];
-        int mujeres= homMuj[1];
+        char sexoMen= pacientes.get(mayorMenorArray[0]).getSexo();
+        char sexoMay= pacientes.get(mayorMenorArray[1]).getSexo();
+
+        int[] pacientesPorSexoArray= pacientesPorSexo(pacientes);
+        int hombres= pacientesPorSexoArray[0];
+        int mujeres= pacientesPorSexoArray[1];
 
 
         return String.format("PACIENTE MAYOR\t Edad: %4d\t Sexo: %4s \n",mayor,

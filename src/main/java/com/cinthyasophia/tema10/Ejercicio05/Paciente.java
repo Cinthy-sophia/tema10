@@ -3,7 +3,6 @@ package com.cinthyasophia.tema10.Ejercicio05;
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.GregorianCalendar;
 
 public class Paciente {
@@ -60,6 +59,8 @@ public class Paciente {
     }
 
     public void setSexo(char sexo) {
+
+        if(sexo=='M'|| sexo=='F')
         this.sexo = sexo;
     }
 
@@ -87,6 +88,7 @@ public class Paciente {
         LocalDate now= LocalDate.now();
         Period p;
         p= Period.between(birth, now);
+
         if (birth.isBefore(now)){
             return p.getYears()-1;
         }else{
