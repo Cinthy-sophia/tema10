@@ -2,19 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2a2918e-da3a-4c95-8d0b-7c6394648dde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio04/Cola.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio04/Ejercicio4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio04/ICola.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio05/Ejercicio5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio05/InformacionPacientes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio05/Paciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema10/Ejercicio02/ArrayListEstadisticas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema10/Ejercicio02/ArrayListEstadisticas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema10/Ejercicio02/Ejercicio2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema10/Ejercicio02/Ejercicio2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema10/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema10/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio3/Ejercicio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio03/Ejercicio3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio3/IPila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio03/IPila.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio3/Pila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio03/Pila.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema10/Ejercicio01/Ejercicio1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema10/Ejercicio02/ArrayListEstadisticas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema10/Ejercicio02/Ejercicio2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema10/Ejercicio02/IEstadisticas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema10/Ejercicio03/Ejercicio3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema10/Ejercicio03/IPila.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema10/Ejercicio03/Pila.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema10/Ejercicio04/Cola.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema10/Ejercicio04/Ejercicio4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema10/Ejercicio04/ICola.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema10/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/cinthyasophia/tema10/Util/Lib.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio05/Alumno.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/" />
@@ -31,73 +36,97 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio03/Pila.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio05/Paciente.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+            <state relative-caret-position="61">
+              <caret line="82" column="47" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
               <folding>
-                <element signature="e#189#190#0" expanded="true" />
-                <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#756#757#0" expanded="true" />
-                <element signature="e#793#794#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#644#645#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+                <element signature="e#761#762#0" expanded="true" />
+                <element signature="e#799#800#0" expanded="true" />
+                <element signature="e#829#830#0" expanded="true" />
+                <element signature="e#864#865#0" expanded="true" />
+                <element signature="e#895#896#0" expanded="true" />
+                <element signature="e#943#944#0" expanded="true" />
+                <element signature="e#983#984#0" expanded="true" />
+                <element signature="e#1012#1013#0" expanded="true" />
+                <element signature="e#1039#1040#0" expanded="true" />
+                <element signature="e#1077#1078#0" expanded="true" />
+                <element signature="e#1109#1110#0" expanded="true" />
+                <element signature="e#1142#1143#0" expanded="true" />
+                <element signature="e#1171#1172#0" expanded="true" />
+                <element signature="e#1215#1216#0" expanded="true" />
+                <element signature="e#1251#1252#0" expanded="true" />
+                <element signature="e#1282#1283#0" expanded="true" />
+                <element signature="e#1309#1310#0" expanded="true" />
+                <element signature="e#1349#1350#0" expanded="true" />
+                <element signature="e#1381#1382#0" expanded="true" />
+                <element signature="e#1955#1956#0" expanded="true" />
+                <element signature="e#1998#1999#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio03/Ejercicio3.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio05/InformacionPacientes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio04/Cola.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="90">
+              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
               <folding>
-                <element signature="e#186#187#0" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
-                <element signature="e#466#467#0" expanded="true" />
-                <element signature="e#539#540#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-                <element signature="e#698#699#0" expanded="true" />
-                <element signature="e#728#729#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1931#1932#0" expanded="true" />
+                <element signature="e#1963#1964#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio04/Ejercicio4.java">
+        <entry file="jar:///usr/lib/jvm/jdk-11.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="106">
+              <caret line="316" selection-start-line="316" selection-end-line="316" />
+              <folding>
+                <element signature="e#11704#11705#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio04/ICola.java">
+        <entry file="jar:///usr/lib/jvm/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Object.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="114">
+              <caret line="157" selection-start-line="157" selection-end-line="157" />
+              <folding>
+                <element signature="e#5913#5914#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio05/Ejercicio5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="68" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -124,11 +153,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio02/Ejercicio2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio02/ArrayListEstadisticas.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio04/ICola.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio04/Cola.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio04/Ejercicio4.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio03/Pila.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio03/Ejercicio3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio05/Alumno.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio05/ConjuntoDePacientes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio05/Ejercicio5.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio05/Paciente.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio05/InformacionPacientes.java" />
       </list>
     </option>
   </component>
@@ -180,16 +214,25 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tema10" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="com.cinthyasophia.tema10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.cinthyasophia.tema10" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tema10" type="462c0819:PsiDirectoryNode" />
+              <item name="Ejercicio05" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551264028653" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551405956908" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -255,7 +298,7 @@
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -264,8 +307,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
@@ -288,6 +331,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ejercicio 1 terminado" />
     <option name="LAST_COMMIT_MESSAGE" value="ejercicio 1 terminado" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio05/Paciente.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -348,47 +403,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio04/Ejercicio4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio04/Cola.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="480">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
             <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
             <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
             <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
             <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio03/Pila.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
-          <folding>
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="435">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
@@ -396,6 +431,106 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio04/Ejercicio4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio05/Ejercicio5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="68" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-11.0.1/lib/src.zip!/java.base/java/time/Period.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5925">
+          <caret line="511" column="15" selection-start-line="511" selection-start-column="15" selection-end-line="511" selection-end-column="15" />
+          <folding>
+            <element signature="e#19881#19882#0" expanded="true" />
+            <element signature="e#19909#19910#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="157" selection-start-line="157" selection-end-line="157" />
+          <folding>
+            <element signature="e#5913#5914#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-11.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="316" selection-start-line="316" selection-end-line="316" />
+          <folding>
+            <element signature="e#11704#11705#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio05/Paciente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="82" column="47" selection-start-line="82" selection-start-column="47" selection-end-line="82" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
+            <element signature="e#1282#1283#0" expanded="true" />
+            <element signature="e#1309#1310#0" expanded="true" />
+            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#1381#1382#0" expanded="true" />
+            <element signature="e#1955#1956#0" expanded="true" />
+            <element signature="e#1998#1999#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cinthyasophia/tema10/Ejercicio05/InformacionPacientes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1931#1932#0" expanded="true" />
+            <element signature="e#1963#1964#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
