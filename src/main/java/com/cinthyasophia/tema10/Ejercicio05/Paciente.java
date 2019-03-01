@@ -60,8 +60,10 @@ public class Paciente {
 
     public void setSexo(char sexo) {
 
-        if(sexo=='M'|| sexo=='F')
-        this.sexo = sexo;
+        if(sexo=='M'|| sexo=='F'){
+
+            this.sexo = sexo;
+        }
     }
 
     public double getAltura() {

@@ -30,7 +30,7 @@ public class InformacionPacientes {
 
     public int[] mayorMenor(ArrayList<Paciente> pacientes) {
         int[] mayorMenor= new int[2];
-        int min= 4;
+        int min=pacientes.size();
         int max= 0;
 
         for (Paciente p : pacientes) {
