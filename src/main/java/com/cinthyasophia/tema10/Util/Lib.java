@@ -1,5 +1,9 @@
 package com.cinthyasophia.tema10.Util;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.GregorianCalendar;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -105,6 +109,20 @@ public class Lib {
     public double aleatorio(double min, double max) {
         Random r = new Random();
         return r.nextDouble()*(max - min);
+    }
+    public GregorianCalendar getFecha(String f){
+
+        SimpleDateFormat format= new SimpleDateFormat("dd/MM/yyyy");
+        GregorianCalendar fechaN= new GregorianCalendar();
+        Date d= new Date();
+        try{
+            d= format.parse(f);
+        }catch (ParseException pe){
+
+        }
+        fechaN.setTime(d);
+
+        return fechaN;
     }
 
 

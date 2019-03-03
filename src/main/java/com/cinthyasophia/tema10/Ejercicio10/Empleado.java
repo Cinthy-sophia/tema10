@@ -1,7 +1,9 @@
 package com.cinthyasophia.tema10.Ejercicio10;
 
-import java.util.ArrayList;
-import java.util.GregorianCalendar;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.Period;
+import java.util.*;
 
 public class Empleado {
     private int id;
@@ -9,7 +11,7 @@ public class Empleado {
     private String apellido;
     private GregorianCalendar fechaNac;
     private double sueldo;
-    private ArrayList<Hijo> hijos;
+    private HashMap<String,Integer> hijos;
 
     public Empleado(int id, String nombre, String apellido, GregorianCalendar fechaNac,double sueldo){
         this.id= id;
@@ -17,25 +19,27 @@ public class Empleado {
         this.apellido= apellido;
         this.fechaNac= fechaNac;
         this.sueldo= sueldo;
-        hijos= new ArrayList<>();
+        hijos= new HashMap<>();
 
     }
 
-    public boolean setHijos(String nombre, String apellido, int edad) {
-        Hijo hijo= new Hijo(nombre,apellido,edad);
-        return hijos.add(hijo);
+    public void setHijos(String nombre, int edad) {
+        hijos.put(nombre,edad);
     }
 
-    public ArrayList<Hijo> getHijos() {
+    public HashMap<String, Integer> getHijos() {
         return hijos;
+    }
+
+    public Set<String> getNombresHijos() {
+        return hijos.keySet();
+    }
+    public Collection<Integer> getEdadHijos(){
+        return hijos.values();
     }
 
     public int getId() {
         return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getNombre() {
@@ -69,5 +73,29 @@ public class Empleado {
     public void setSueldo(double sueldo) {
         this.sueldo = sueldo;
     }
+    public int getEdad(){
+        int year= fechaNac.get(Calendar.YEAR);
+        int month= fechaNac.get(Calendar.MONTH);
+        int day= fechaNac.get(Calendar.DAY_OF_MONTH);
 
+        LocalDate birth= LocalDate.of(year,month,day);
+        LocalDate now= LocalDate.now();
+        Period p;
+        p= Period.between(birth, now);
+
+        if (birth.isBefore(now)){
+            return p.getYears()-1;
+        }else{
+            return p.getYears();
+        }
+    }
+
+    @Override
+    public String toString() {
+        SimpleDateFormat format= new SimpleDateFormat("dd/MM/yyyy");
+        return String.format("%9d\t",id)+String.format("%-9s\t",nombre)+
+        String.format("%-9s\t",apellido)+
+        format.format(fechaNac.getTime())+String.format("%5d",getEdad())+
+        String.format("%9.2f\t",sueldo)+String.format("%-9s",hijos.keySet());
+    }
 }
