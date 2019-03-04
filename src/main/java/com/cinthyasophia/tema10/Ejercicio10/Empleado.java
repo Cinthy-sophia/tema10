@@ -75,7 +75,7 @@ public class Empleado {
     }
     public int getEdad(){
         int year= fechaNac.get(Calendar.YEAR);
-        int month= fechaNac.get(Calendar.MONTH);
+        int month= fechaNac.get(Calendar.MONTH)+1;
         int day= fechaNac.get(Calendar.DAY_OF_MONTH);
 
         LocalDate birth= LocalDate.of(year,month,day);
@@ -96,6 +96,6 @@ public class Empleado {
         return String.format("%9d\t",id)+String.format("%-9s\t",nombre)+
         String.format("%-9s\t",apellido)+
         format.format(fechaNac.getTime())+String.format("%5d",getEdad())+
-        String.format("%9.2f\t",sueldo)+String.format("%-9s",hijos.keySet());
+        String.format("%-9.2f\t",sueldo)+String.format("%-9s",hijos.keySet());
     }
 }

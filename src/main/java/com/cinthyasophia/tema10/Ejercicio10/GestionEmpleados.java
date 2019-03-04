@@ -18,7 +18,7 @@ public class GestionEmpleados {
     private HashMap<Integer, Empleado> empleados=new HashMap<>();
 
     public GestionEmpleados() {
-        datosAleatorios(5);
+        datosAleatorios(10);
         int opcion;
         do {
             opcion=menuPrincipal();
@@ -624,14 +624,13 @@ public class GestionEmpleados {
         double sueldo;
         String nombreHijo;
         int edadHijo;
-
         Empleado empleado;
 
         for (int i = 0; i < n ; i++) {
             id=lib.aleatorio(1,10);
             nombre=nombres[lib.aleatorio(0,9)];
             apellido=apellidos[lib.aleatorio(0,9)];
-            fechaNac=new GregorianCalendar(lib.aleatorio(1980,2010),lib.aleatorio(1,12),lib.aleatorio(1,28));
+            fechaNac=new GregorianCalendar(lib.aleatorio(1980,2003),lib.aleatorio(1,12),lib.aleatorio(1,28));
             sueldo=lib.aleatorio(900,2100);
             nombreHijo=nombres[lib.aleatorio(0,9)];
             edadHijo=lib.aleatorio(0,26);
