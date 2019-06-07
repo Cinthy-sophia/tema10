@@ -2,20 +2,20 @@ package com.cinthyasophia.tema10.Util;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.GregorianCalendar;
-import java.util.Random;
-import java.util.Scanner;
+import java.time.LocalDate;
+import java.time.Period;
+import java.util.*;
 
 public class Lib {
     private Scanner lector = new Scanner(System.in);
+    private Random rnd = new Random();
     /**
      * Transforma en string el vector de enteros que reciba
      * @param vector
      * @return String
      */
     public String toString(int[] vector){
-        String cadena= new String();
+        String cadena= "";
         for (int i = 0; i <vector.length ; i++) {
             cadena= cadena.concat(Integer.toString(vector[i]))+" ";
         }
@@ -94,8 +94,15 @@ public class Lib {
         lector.nextLine();
     }
 
-    public int[] numeroMenos(int[] vectorP){
-        int[] vector = new int[6];
+    /**
+     * Le resta el ultimo numero al vector que recibe y lo mueve a otro array con un tamaño menor
+     * @param vectorP
+     * @param num
+     * @return int[]
+     * Devuelve el array con el numero menos
+     */
+    public int[] numeroMenos(int[] vectorP, int num){
+        int[] vector = new int[num];
         for (int i = 0; i < vector.length; i++) {
 
             vector[i]=vectorP[i];
@@ -103,15 +110,19 @@ public class Lib {
         return vector;
     }
     public int aleatorio(int min, int max) {
-        Random r = new Random();
-        return r.nextInt(max - min +1 ) + min;
+        return rnd.nextInt(max - min +1 ) + min;
     }
     public double aleatorio(double min, double max) {
-        Random r = new Random();
-        return r.nextDouble()*(max - min);
+        return rnd.nextDouble()*(max - min);
     }
-    public GregorianCalendar getFecha(String f){
 
+    /**
+     * Cambia la fecha de string a GregorianCalendar
+     * @param f
+     * @return GregorianCalendar
+     * Devuelve la fecha en GregorianCalendar
+     */
+    public GregorianCalendar getFecha(String f){
         SimpleDateFormat format= new SimpleDateFormat("dd/MM/yyyy");
         GregorianCalendar fechaN= new GregorianCalendar();
         Date d= new Date();
@@ -121,8 +132,140 @@ public class Lib {
 
         }
         fechaN.setTime(d);
-
         return fechaN;
+    }
+
+    /**
+     *Valida la opcion del menu y devuelve la opcion que el usuario haya elegido.
+     * @param opcionMin
+     * @param opcionMax
+     * @return int
+     */
+    public int validarOpcion(int opcionMin, int opcionMax){
+        int opcion=0;
+        boolean isNumber;
+        do {
+            try {
+                opcion = lector.nextInt();
+                isNumber = true;
+            } catch (InputMismatchException ime) {
+                errorDatos();
+                isNumber = false;
+            } finally {
+                lector.nextLine();
+            }
+            if (opcion < opcionMin || opcion > opcionMax) {
+                System.out.println(errorMenu());
+            }
+
+        } while (!isNumber || opcion < opcionMin || opcion > opcionMax);
+
+        return opcion;
+    }
+
+    /**
+     *Recibe la fecha y regresa la edad.
+     * @param fechaNac
+     * @return int
+     */
+    public int getEdad(GregorianCalendar fechaNac){
+        int year= fechaNac.get(Calendar.YEAR);
+        int month= fechaNac.get(Calendar.MONTH);
+        int day= fechaNac.get(Calendar.DAY_OF_MONTH);
+        int edad;
+
+        LocalDate birth= LocalDate.of(year,month,day);
+        LocalDate now = LocalDate.now();
+        Period p;
+        p= Period.between(birth, now);
+
+        if (birth.isBefore(now)){
+            edad= p.getYears()-1;
+        }else{
+            edad= p.getYears();
+        }
+        return edad;
+    }
+
+    /**
+     * Obtiene los dias que hay entre la fecha actual del sistema y la que recibe.
+     * @param fecha
+     * @return int
+     */
+    public int obtenerDias(GregorianCalendar fecha){
+        int year= fecha.get(Calendar.YEAR);
+        int month= fecha.get(Calendar.MONTH);
+        int day= fecha.get(Calendar.DAY_OF_MONTH);
+        int dias;
+
+        LocalDate date= LocalDate.of(year,month,day);
+        LocalDate now = LocalDate.now();
+        Period p;
+        p= Period.between(date, now);
+
+        dias= p.getDays();
+        return dias;
+
+    }
+
+    /**
+     * Devuelve un boolean indicando si la fecha que recibe por parametro es antes de la fecha actual.
+     * @param fecha
+     * @return boolean
+     */
+    public boolean fechaIsBeforeNow(GregorianCalendar fecha){
+        int year= fecha.get(Calendar.YEAR);
+        int month= fecha.get(Calendar.MONTH);
+        int day= fecha.get(Calendar.DAY_OF_MONTH);
+
+        LocalDate fechaActual= LocalDate.of(year,month,day);
+        LocalDate now = LocalDate.now();
+
+        return fechaActual.isBefore(now);
+
+    }
+    public int[] getCombinacion( int numeroFichas, int sizeCombinacion) {
+        int aux;
+        int cont;
+        int numAl;
+        int[] fichas= new int[numeroFichas];
+        int[] combinacion= new int[sizeCombinacion];
+
+        //llena el array fichas de numeros aleatorios entre en 1 y el numero de fichas que recibe como parametro
+        for (int i = 0; i < fichas.length ; i++) {
+            fichas[i]= i+1;
+        }
+
+        cont= fichas.length-1;
+
+        for (int i = 0; i <combinacion.length ; i++) {
+            numAl= rnd.nextInt(cont);
+            combinacion[i] = fichas[numAl];
+            aux=fichas[numAl];
+            fichas[numAl]= fichas[cont];
+            fichas[cont]=aux;
+            cont--;
+
+        }
+        //combinacion=ordernarCombinacion(combinacion);
+        return combinacion;//Devuelve el vector con la combinacion
+
+    }
+
+    public String validarFecha(){
+        boolean validado;
+        String fecha;
+        do {
+            fecha= lector.nextLine();
+            validado= fecha.length() >= 10&& !fechaIsBeforeNow(getFecha(fecha));
+
+            if (!validado){
+                System.out.println("Fecha no valida. Intente de nuevo y recuerde que el formato es dd/mm/yyyy.");
+            }
+
+        }while(!validado);
+
+        return fecha;
     }
 
 
